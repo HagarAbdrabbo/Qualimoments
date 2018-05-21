@@ -1,0 +1,200 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {    font-family: 'Montserrat', sans-serif;
+  
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ 
+}
+
+h1 {text-align: center;
+   font-weight: bold; 
+    font-size: 3em;  
+}
+
+p{text-align: center;
+   font-size: 1em;
+    line-height: 1.3em;
+}
+
+h2 {text-align: center;
+    font-weight: bold; 
+    font-size: 1.7em;  
+}
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  height: 4em;
+  background-color: white;
+  padding: 1%;
+}
+
+#logo {width: 100%;
+    margin-left: 5%;
+    grid-area:left;
+    padding-top: 3%;
+}
+
+#burger {width: 40%;
+    margin-right: 5%
+}
+
+#top { display: grid;
+       grid-template-areas:
+       'left left right';
+       margin-left: 3%;
+       margin-right: 3%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    grid-area:right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+nav {
+  text-align: right;
+
+}
+
+li { display: inline;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+#myVideo {
+    position: relative;
+    text-align: center;
+    
+}
+
+.video {
+    position: absolute;
+    top: 10%;
+    border: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-bottom: 59%;
+}
+
+#quali{
+    margin-top: 60%;
+}
+
+#story{padding: 5%;
+       margin-top: 3%;
+}
+
+#launch{
+    margin-top: 7%;
+}
+
+#email {text-align: center;
+}
+#mail {text-decoration: none;
+       font-size: 0.7em;  
+       color: black;       
+}
+#contact {font-size: 2em;
+padding-bottom: 2%}
+
+#welcome {margin-top: 2%;
+          
+}
+
+#community {font-size:2em; 
+            margin-top: 5%;
+            margin-bottom: 8%;
+            margin-left: 2%;
+            margin-right: 2%;
+    
+}
+
+#intro {background-color: #337bb3;
+        color: white;
+        padding-top: 7%;
+        padding-bottom:7%;
+}
+
+
+.page2 {padding: 3%;
+}
+
+.review {font-size: 0.8em;
+}
+
+#How {margin-top: 8%;
+}
+
+#features {margin-top: 8%;
+           background-color: #337bb3;
+           color: white;
+}
+#sign {margin-bottom: 8%;
+       padding-top: 8%;       
+}
+
+#keep {margin-top: 8%;
+    
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: auto;
+  padding-top: 2%;
+    font-size: 0.6em;
+}
+
+/*Here goes Social Media*/
+.social-buttons {text-align: center;
+padding-left: 2%;
+padding-bottom: 2%}
+
+
+.social-btn {font-size: 3em;
+padding-right: 0.5em;
+text-align: center;
+color: #337bb3;
+}
