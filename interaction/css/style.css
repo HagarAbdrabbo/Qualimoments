@@ -140,35 +140,41 @@ video{
     margin-top: 7%;
 }
 
-#clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
+#clockdiv{display:flex;
+         justify-content: space-between;
+         margin-left: 6%;
+         margin-right: 6%;
+    
+         
 }
 
 #clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
+   margin-top: 5%;
+    background-color: white;
     display: inline-block;
+    text-align: center;
+    
 }
 
 #clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #00816A;
+    color: #337bb3;
+    font-weight: bolder;
     display: inline-block;
+    
 }
 
 .smalltext{
-    padding-top: 5px;
-    font-size: 16px;
+    padding-top: 2%;
+    font-size: 0.7em;
+    color: #c71441;
+}
+
+hr {width: 2.3em;
+    
 }
 
 #email {text-align: center;
+    padding-bottom: 2%;
 }
 #mail {text-decoration: none;
        font-size: 0.7em;  
@@ -223,7 +229,9 @@ padding-bottom: 2%}
 footer {
   height: auto;
   padding-top: 2%;
-    font-size: 0.6em;
+  font-size: 0.6em;
+  padding-bottom: 3%;
+  
 }
 
 /*Here goes Social Media*/
