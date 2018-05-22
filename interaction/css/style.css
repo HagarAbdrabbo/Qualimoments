@@ -144,6 +144,7 @@ video{
          justify-content: space-between;
          margin-left: 6%;
          margin-right: 6%;
+         margin-top: 2%;
     
          
 }
@@ -228,7 +229,7 @@ padding-bottom: 2%}
 
 footer {
   height: auto;
-  padding-top: 2%;
+  margin-top:10%;
   font-size: 0.6em;
   padding-bottom: 3%;
   
