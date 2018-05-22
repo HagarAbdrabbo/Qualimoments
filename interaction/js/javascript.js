@@ -58,3 +58,9 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date(Date.parse(new Date()) + 100 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
+
+var flkty = new Flickity( '.main-gallery', {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
