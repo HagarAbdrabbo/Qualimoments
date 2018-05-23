@@ -47,21 +47,21 @@ header {
   padding: 1%;
 }
 
-#logo {width: 100%;
-    margin-left: 5%;
+#logo {width: 90%;
     grid-area:left;
     padding-top: 3%;
 }
 
-#burger {width: 40%;
-    margin-right: 5%
+#burger {width: 120%;
+         padding-right:13%;
+         padding-top:20%;
 }
 
 #top { display: grid;
        grid-template-areas:
        'left left right';
-       margin-left: 3%;
-       margin-right: 3%;
+       padding-left: 3%;
+       padding-right:  3%;
 }
 
 .dropdown {
