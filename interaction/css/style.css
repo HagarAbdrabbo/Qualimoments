@@ -202,10 +202,52 @@ hr {width: 2.3em;
 .page2 {padding: 3%;
 }
 
+
+
 .review {font-size: 0.8em;
 }
 
 #How {margin-top: 8%;
+}
+
+.hs{
+    background-color: white;
+	margin:auto;
+}
+
+.hs ul{
+	list-style:none;
+    width: 100%;
+	margin:0;
+	padding:0;	
+}
+
+.hs ul li{
+	width:100%;
+	float:left;
+}
+
+.showcase {
+  /* Set it so we could calculate the offsetLeft */
+  position: relative;
+  height: 50%;
+  width: 90%;
+  /* Add scroll-bars */
+  overflow: auto;
+  float:left;
+}
+
+.left-arrow{color: #c71441;
+	        display:block;
+	        margin-right:2%;
+	        float:left;
+}
+
+.right-arrow{color: #c71441;
+	
+	display:block;
+	margin-left:2%;
+	float:left;	
 }
 
 #features {margin-top: 8%;
