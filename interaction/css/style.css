@@ -52,7 +52,7 @@ header {
     padding-top: 3%;
 }
 
-#burger {width: 120%;
+#burger {width: 110%;
          padding-right:13%;
          padding-top:20%;
 }
@@ -74,10 +74,10 @@ header {
     display: none;
     position: absolute;
     background-color: white;
-    width: 53vh;
+    width: 58vh;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    transform: translateX(-67%);
+    transform: translateX(-86%);
 }
 
 .dropdown-content a {
@@ -181,7 +181,9 @@ hr {width: 2.3em;
        color: black;       
 }
 #contact {font-size: 2em;
-padding-bottom: 2%}
+          padding-bottom: 2%;
+          margin-top: 5%;
+}
 
 #welcome {margin-top: 2%;
           
@@ -192,8 +194,9 @@ padding-bottom: 2%}
             margin-bottom: 8%;
             margin-left: 2%;
             margin-right: 2%;
-    
 }
+
+
 
 #intro {background-color: #337bb3;
         color: white;
@@ -214,14 +217,75 @@ padding-bottom: 2%}
 #features {margin-top: 8%;
            background-color: #337bb3;
            color: white;
+           text-align: center;
+           padding-bottom: 4%;
 }
 #sign {margin-bottom: 8%;
        padding-top: 8%;       
 }
 
+#blue {text-align: center;}
+
+.icons {
+    color: white;
+    margin-top: 8%;    
+}
+
+
+
+.i {
+    font-weight: bold;    
+}
+
+.fas { margin-right:4%;
+       font-size: 1.4em;    
+}
+
 #keep {margin-top: 8%;
+       text-align: center;    
+}
+
+#subscribe {margin-top: 5%;
+            margin-bottom: 5%;
+}
+
+h4 {margin: auto;
+    margin-top: 4%;
+    border:1px inset; 
+    border-radius: 12px;
+    max-width: 50%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+button {background-color:#c71441;
+        color: white;
+        border-radius: 12px;
+        width: 50%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-top: 2%;
     
 }
+
+#wait { padding: 4%;
+    
+}
+
+#app {max-width: 95%;
+      margin-top: 8%;
+      margin-bottom: 8%;
+      padding-left: 3%;
+    }
+
+.download {max-width: 50%;
+           padding-bottom: 8%;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+          
+}
+#google {max-width: 49%;}
 
 /* Footer
 -----------------------------------------------------------------------------*/
@@ -237,7 +301,8 @@ footer {
 /*Here goes Social Media*/
 .social-buttons {text-align: center;
 padding-left: 2%;
-padding-bottom: 2%}
+padding-bottom: 2%;
+}
 
 
 .social-btn {font-size: 3em;
