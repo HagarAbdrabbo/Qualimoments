@@ -104,6 +104,10 @@ li { display: inline;
 /* Middle
 -----------------------------------------------------------------------------*/
 
+#tablet {display: none;
+    
+}
+
 #myVideo {
     position: relative;
     text-align: center;
@@ -141,7 +145,6 @@ video{
 
 #launch{
     margin-top: 7%;
-    
 }
 
 #clockdiv{display:flex;
@@ -304,13 +307,15 @@ button {background-color:#c71441;
 }
 
 #wait { padding: 4%;
-    
+        display: block;
+        margin: auto;
 }
 
 #app {max-width: 95%;
-      margin-top: 8%;
-      margin-bottom: 8%;
-      padding-left: 3%;
+      padding-top:8%;
+      padding-bottom:8%;
+      display: block;
+      margin: auto;
     }
 
 .download {max-width: 50%;
@@ -359,4 +364,121 @@ color: #337bb3;
 }
 
 /* 480px-600px ---------------------------------------------- */ @media only screen and (min-width: 768px) {
-header { background-color:black;}   /* gul */
+  /* gul */
+.dropdown {display: none;
+}
+     
+ #tablet {display: flow-root;
+          margin-top: 5%; 
+          grid-area:right;        
+}
+    
+#logo { max-width: 80%;
+        
+    }
+    
+#top{display: grid;
+     grid-template-areas:
+     'left right right';
+     padding-left: 3%;
+     padding-right:  3%;
+        
+}    
+#tablet ul li a {
+        color: #c71441;
+        text-decoration: none;
+        font-size:1.2em; 
+}
+    
+#tablet a:hover{color: black;
+}
+    
+ #tablet ul li {padding: 2%;
+}
+    
+#myVideo {height:70vh; 
+}
+  
+video{transform: translateX(-1.8%);
+    }
+    
+#quali{margin-top: 10%;
+       margin-left:  0%;
+       margin-right:  0%;
+}
+    
+#story {font-size: 1.3em;
+        
+ }  
+    
+#launch{margin-bottom: -2%;
+}    
+    
+#clockdiv{margin-left: 25%;
+          margin-right: 25%;
+          margin-top: 4%;
+}
+    
+#clockdiv div > span{ font-size: 1.2em;
+}
+    
+hr {width: 4em;
+}
+
+    
+.smalltext{font-size: 1.2em;
+}
+
+
+
+
+#wait {font-size: 1.5em;
+       max-width: 77%;
+       padding-top: 0%;
+}    
+#app {width: 60%;
+      padding: 0%;
+    
+}
+    
+#google{height: 3em;
+        max-width: 20%;
+        padding-left: 20%;
+        
+} 
+    
+#apple { max-width: 20%;
+         height: 3em;
+         padding-right: 20%;
+        
+    }   
+#stores {display: flex;
+         justify-content: space-around;
+         margin-top:5%; 
+     
+}
+    
+.download {
+           padding-bottom: 0%;
+           margin-right: 0%;
+           margin-left: 0%;
+    }    
+    
+#contact {grid-area:left;
+} 
+.social-buttons {grid-area:right;
+                 margin-top: 5%;
+                 padding-top:3.5%;
+}
+#right {grid-area:bottom;
+        margin-left: 7%;
+}
+    
+.footer {display: grid;
+         grid-template-areas:
+         'left  right'
+         'bottom bottom' ;
+          margin-top: 2%;
+}
+    
+}
