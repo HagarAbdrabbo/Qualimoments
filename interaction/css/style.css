@@ -125,7 +125,7 @@ li { display: inline;
 }
 video{
     height:100%;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 }
 
 .source{
@@ -206,52 +206,27 @@ hr {width: 2.3em;
 }
 
 
+#reviews {display: flex;
+          flex-wrap: nowrap;
+          text-align: center;
+          width: 100%;
+          overflow-x: auto;
+          margin-left: 4%;
+        
+    }
+#reviews div{min-width:70vw;
+             padding:7%;
+             font-size: 0.8em;
+}
 
-.review {font-size: 0.8em;
+h6 {color:  #c71441;
+    margin-top: 5%;
+    font-weight: bold;
 }
 
 #How {margin-top: 8%;
 }
 
-.hs{
-    background-color: white;
-	margin:auto;
-}
-
-.hs ul{
-	list-style:none;
-    width: 100%;
-	margin:0;
-	padding:0;	
-}
-
-.hs ul li{
-	width:100%;
-	float:left;
-}
-
-.showcase {
-  /* Set it so we could calculate the offsetLeft */
-  position: relative;
-  height: 50%;
-  width: 90%;
-  /* Add scroll-bars */
-  overflow: auto;
-  float:left;
-}
-
-.left-arrow{color: #c71441;
-	        display:block;
-	        margin-right:2%;
-	        float:left;
-}
-
-.right-arrow{color: #c71441;
-	
-	display:block;
-	margin-left:2%;
-	float:left;	
-}
 
 #features {margin-top: 8%;
            background-color: #337bb3;
@@ -335,19 +310,21 @@ footer {
   padding-top: 7%;
   font-size: 0.6em;
   padding-bottom: 3%;
+  text-align: center;
   
 }
 
 #email {text-align: center;
-    padding-bottom: 2%;
+       
 }
 #mail {text-decoration: none;
        font-size: 0.7em;  
        color: black;       
 }
 #contact {font-size: 2em;
-          padding-bottom: 2%;
+          margin-bottom:5%;
           margin-top: 5%;
+          
 }
 
 /*Here goes Social Media*/
@@ -358,13 +335,14 @@ padding-bottom: 2%;
 
 
 .social-btn {font-size: 3em;
-padding-right: 0.5em;
+margin: 1%;
 text-align: center;
 color: #337bb3;
 }
 
-/* 480px-600px ---------------------------------------------- */ @media only screen and (min-width: 768px) {
-  /* gul */
+
+    
+/* 480px-600px ---------------------------------------------- */ @media only screen and (min-width: 768px) { /* gul */
 .dropdown {display: none;
 }
      
@@ -399,7 +377,9 @@ color: #337bb3;
 #myVideo {height:70vh; 
 }
   
-video{transform: translateX(-1.8%);
+video{transform: translateX(0);
+    height:auto;
+    width:100%
     }
     
 #quali{margin-top: 10%;
@@ -429,8 +409,51 @@ hr {width: 4em;
 .smalltext{font-size: 1.2em;
 }
 
-
-
+#intro {font-size: 1.3em;
+        
+}
+    
+#reviews div{min-width:60vw;
+             padding:2%;
+             font-size:1em;
+}
+#three {display: flex;
+        justify-content: space-around;
+}
+    
+#sign {padding-top:5%; 
+       margin-bottom: 5%;
+}
+    
+.icons {margin-top:2%;
+        max-width: 33%;
+}
+    
+    
+.i {margin-bottom: 2%;
+        
+    }
+    
+#click {display: flex;
+        justify-content: space-between;
+        padding-left:23%;
+        padding-right: 23%;
+        margin-top: 1%;
+}
+    
+button {max-width:40%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+}       
+h4 {width: 40%;
+    margin: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    } 
+    
+#keep{margin-bottom: -2%;
+    
+    }
 
 #wait {font-size: 1.5em;
        max-width: 77%;
@@ -440,6 +463,10 @@ hr {width: 4em;
       padding: 0%;
     
 }
+    
+#subscribe{margin:3%;
+        
+    }
     
 #google{height: 3em;
         max-width: 20%;
