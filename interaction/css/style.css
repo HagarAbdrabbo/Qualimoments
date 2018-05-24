@@ -342,7 +342,8 @@ color: #337bb3;
 
 
     
-/* 480px-600px ---------------------------------------------- */ @media only screen and (min-width: 768px) { /* gul */
+    /* ---------768px -------- */
+@media only screen and (min-width: 768px) { /* gul */
 .dropdown {display: none;
 }
      
@@ -381,6 +382,10 @@ video{transform: translateX(0);
     height:auto;
     width:100%
     }
+.video {height: 100%;
+
+    
+}
     
 #quali{margin-top: 10%;
        margin-left:  0%;
@@ -507,5 +512,113 @@ h4 {width: 40%;
          'bottom bottom' ;
           margin-top: 2%;
 }
+}
+
+   /* ---------- 1000px ----------- */
+@media only screen and (min-width: 1000px) { /* gul */
+#tablet {margin-top: 4%; 
+                 
+}
+    
+    
+#myVideo {height:90vh; 
+}
+    
+#launch h2 {font-size:2.7em;
     
 }
+    
+   
+#clockdiv div > span{ font-size: 1.8em;
+}
+    
+hr {width: 8em;
+}
+
+    
+.smalltext{font-size: 1.8em;
+}
+    
+  #community {font-size:2.3em; 
+            margin-top: 3%;
+            margin-bottom: 3%;
+            
+}
+    
+#intro {padding-top: 3%;
+        padding-bottom:3%;
+}
+    
+#intro p{display: block;
+        margin: auto;
+        max-width: 70%;
+        font-size:1.3em; 
+    }
+#welcome {margin-top: 2%;
+    }
+    
+#How { font-size: 2em;
+       margin-top: 4%;
+}
+    
+#reviews div{min-width:30vw;
+             padding:2%;
+             font-size:1.2em;
+}
+    
+#sign {font-size: 2em;
+       padding-top:4%;
+}
+ 
+#features {margin-top: 4%;
+           padding-bottom: 4%;
+}
+    
+.icons {margin-top:0%;
+        max-width: 33%;
+}
+
+.i {font-size: 1.3em;
+}
+
+button {max-width:47%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+}       
+h4 {width: 47%;
+    margin: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    } 
+    
+    
+#click {
+        padding-left:20%;
+        padding-right:20%;
+        margin-top: 1%;
+}
+
+        
+#keep { margin-top: 4%;
+}
+ 
+#keep h2 {font-size: 2em;
+    }  
+#subscribe {font-size: 1.6em;
+        
+    }
+#contact {font-size: 3em;
+}
+
+.social-buttons{font-size: 1.2em;
+}
+    
+.social-buttons li{padding-left: 4%;
+}
+    
+ #right { font-size: 2em;
+          margin-left: 8%;
+    }
+
+  
+}    
