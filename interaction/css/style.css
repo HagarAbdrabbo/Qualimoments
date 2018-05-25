@@ -669,14 +669,17 @@ hr {width: 11vw;
  
 #features {margin-top: 4%;
            padding-bottom: 4%;
+           
 }
     
 .icons {margin-top:0%;
         max-width: 33%;
         animation-name: icon3;
         animation-duration: 1s;
+        
 }
-
+ 
+    
 .i {font-size: 1.3em;
 }
 
