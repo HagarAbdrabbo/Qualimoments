@@ -376,6 +376,7 @@ button {background-color:#c71441;
       display: block;
       margin: auto;
     }
+#mobile {display: none;}
 
 .download {max-width: 50%;
            padding-bottom: 8%;
@@ -585,29 +586,43 @@ h4 {width: 40%;
            margin-left: 0%;
     } 
     
-#mobile {display: none;}
+
     
-#contact {grid-area:left;
+#last {display: flex;
+       justify-content: space-between;
+       margin-left: 20%;
+       margin-right: 20%;
 } 
-.social-buttons {grid-area:right;
+    
+    #contact{max-width: 50%;}
+.social-buttons {font-size: 0.9em;
                  margin-top: 5%;
                  padding-top:3.5%;
-}
-#right {grid-area:bottom;
-        margin-left: 7%;
+                 max-width: 50%;
 }
     
-.footer {display: grid;
-         grid-template-areas:
-         'left  right'
-         'bottom bottom' ;
+    .social-btn{margin-right: 1%;}
+        
+    }
+#right {font-size: 1.4em;}
+    
+.footer {
           margin-top: 2%;
+         
 }
 }
 
    /* ---------- 1000px ----------- */
 @media only screen and (min-width: 1000px) { /* gul */
-#tablet {margin-top: 4%; 
+
+.header{height: 3em;
+}
+    
+#logo {padding-top: 0%;
+}
+    
+#tablet {margin-top: 2%;
+         font-size: 1.4em;
                  
 }
 
@@ -768,15 +783,21 @@ h4 {width: 47%;
           
 }
 .download {padding-right: 15%;} 
+  
 
 .social-buttons{font-size: 1.2em;
+    
 }
+    
+.social-buttons li a:hover{color:#7bacd2; }
     
 .social-buttons li{padding-left: 4%;
 }
     
  #right { font-size: 2em;
-          margin-left: 8%;
+          padding-left: 45%;
+          
+          
     }
 
   
