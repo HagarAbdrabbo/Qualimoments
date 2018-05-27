@@ -644,7 +644,7 @@ h4 {width: 45%;
     
     .social-btn{padding-right: 5%;}
         
-    }
+    
 #right {font-size: 1.4em;}
     
 .footer {padding-bottom: 0%;
@@ -656,18 +656,19 @@ h4 {width: 45%;
    /* ---------- 1000px ----------- */
 @media only screen and (min-width: 1000px) { /* gul */
 
-.header{height: 3em;
+.header{height: 3em; 
+        padding-bottom: 2%;
 }
     
 #logo {padding-top: 0%;
 }
     
 #tablet {margin-top: 2%;
+         font-size: 1.3em;
 }
     
-#tablet ul li a { font-size: 5em;
-    
-    }
+
+
 
 #story { font-size: 1.6em;
         
@@ -719,6 +720,21 @@ hr {width: 11vw;
 #reviews div{min-width:30vw;
              padding:2%;
              font-size:1.2em;
+}
+    
+    
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
     
 #sign {font-size: 2em;
@@ -828,17 +844,18 @@ h4 {width: 47%;
 .download {padding-right: 15%;} 
   
 
-.social-buttons{font-size: 5em;
+.social-buttons{font-size: 1.4em;
     
 }
+    
+   
     
 .social-buttons li a:hover{color:#7bacd2; }
     
-.social-buttons li{padding-left: 4%;
-}
+
     
  #right { font-size: 2em;
-          padding-left: 45%;
+          
           
           
     }
