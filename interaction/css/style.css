@@ -205,7 +205,7 @@ video{
 }
 
 .source{
-    height: 100%
+    height: 100%;
 }
 
 #quali{
@@ -433,16 +433,15 @@ text-align: center;
 color: #337bb3;
 }
 
-
+   /* ---------560px -------- */
+@media only screen and (min-width: 560px) { /* gul */
     
-    /* ---------768px -------- */
-@media only screen and (min-width: 768px) { /* gul */
 .dropdown {display: none;
 }
      
  #tablet {display: flow-root;
           margin-top: 5%; 
-          grid-area:right;        
+          grid-area:right;           
 }
     
 #logo { max-width: 80%;
@@ -452,33 +451,60 @@ color: #337bb3;
 #top{display: grid;
      grid-template-areas:
      'left right right';
-     padding-left: 3%;
-     padding-right:  3%;
+     margin-top: 2%;
         
 }    
 #tablet ul li a {
         color: #c71441;
         text-decoration: none;
-        font-size:1.2em; 
+        font-size:0.8em; 
 }
     
 #tablet a:hover{color: black;
 }
     
+
+    
  #tablet ul li {padding: 2%;
 }
     
-#myVideo {height:70vh; 
+       
+#myVideo {height:58vh; 
 }
   
 video{transform: translateX(0);
     height:auto;
     width:100%
     }
-.video {height: 100%;
+.video {height: 90vh;
+        margin-top: -30%;
 
     
 }
+    
+}
+    
+    /* ---------768px -------- */
+@media only screen and (min-width: 768px) { /* gul */
+
+ #myVideo {height:68vh; 
+}
+   
+
+.video {height: 100%;
+        margin-top: 0%;
+            
+}
+    
+#tablet ul li a {
+        color: #c71441;
+        text-decoration: none;
+        font-size:1.2em; 
+}
+    
+#top {margin-top: 1%;
+        
+    }
     
 #quali{margin-top: 10%;
        margin-left:  0%;
@@ -513,12 +539,17 @@ hr {width: 10vw;
         
 }
     
+   
+#reviews {margin-left: 0%;
+}
+    
 #reviews div{min-width:60vw;
              padding:2%;
              font-size:1em;
 }
 #three {display: flex;
         justify-content: space-around;
+        font-size: 1.1em;
 }
     
 #sign {padding-top:5%; 
@@ -526,7 +557,7 @@ hr {width: 10vw;
 }
     
 .icons {margin-top:2%;
-        max-width: 33%;
+       width: 29%;
        animation-name: icon2;
        animation-duration: 1s;
 }
@@ -544,11 +575,11 @@ hr {width: 10vw;
         margin-top: 1%;
 }
     
-button {max-width:40%;
+button {width:45%;
         margin-top: 1%;
         margin-bottom: 1%;
 }       
-h4 {width: 40%;
+h4 {width: 45%;
     margin: 0%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -598,23 +629,25 @@ h4 {width: 40%;
     
 #last {display: flex;
        justify-content: space-between;
-       margin-left: 20%;
-       margin-right: 20%;
+       margin-left: 16%;
+       margin-right: 16%;
 } 
     
-    #contact{max-width: 50%;}
+   
+
 .social-buttons {font-size: 0.9em;
                  margin-top: 5%;
                  padding-top:3.5%;
-                 max-width: 50%;
+                 width: 50%;
+                 text-align: right;
 }
     
-    .social-btn{margin-right: 1%;}
+    .social-btn{padding-right: 5%;}
         
     }
 #right {font-size: 1.4em;}
     
-.footer {
+.footer {padding-bottom: 0%;
           margin-top: 2%;
          
 }
@@ -630,9 +663,11 @@ h4 {width: 40%;
 }
     
 #tablet {margin-top: 2%;
-         font-size: 1.4em;
-                 
 }
+    
+#tablet ul li a { font-size: 5em;
+    
+    }
 
 #story { font-size: 1.6em;
         
@@ -793,7 +828,7 @@ h4 {width: 47%;
 .download {padding-right: 15%;} 
   
 
-.social-buttons{font-size: 1.2em;
+.social-buttons{font-size: 5em;
     
 }
     
