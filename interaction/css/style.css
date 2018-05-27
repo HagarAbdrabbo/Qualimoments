@@ -397,7 +397,7 @@ footer {
   height: auto;
   padding-top: 7%;
   font-size: 0.6em;
-  padding-bottom: 3%;
+  
   text-align: center;
   
 }
@@ -476,11 +476,20 @@ video{transform: translateX(0);
     height:auto;
     width:100%
     }
-.video {height: 90vh;
-        margin-top: -30%;
-
-    
+.video {height: auto; 
+        padding-bottom: 10%;
 }
+    
+    #story{padding: 0%;
+       margin-top: 2%;
+}
+
+#quali {
+        margin-top: 13%;
+        
+    }
+    
+
     
 }
     
@@ -499,7 +508,7 @@ video{transform: translateX(0);
 #tablet ul li a {
         color: #c71441;
         text-decoration: none;
-        font-size:1.2em; 
+        font-size:1.3em; 
 }
     
 #top {margin-top: 1%;
@@ -647,7 +656,7 @@ h4 {width: 45%;
     
 #right {font-size: 1.4em;}
     
-.footer {padding-bottom: 0%;
+.footer {
           margin-top: 2%;
          
 }
@@ -676,6 +685,7 @@ h4 {width: 45%;
     
 #myVideo {height:90vh; 
 }
+    .video {width: 100%;}
     
 #quali {animation-name: slide-up3;
         animation-duration: 1s;
@@ -855,10 +865,12 @@ h4 {width: 47%;
 
     
  #right { font-size: 2em;
+          padding-top: 1%;
+          padding-bottom: 1%;
           
-          
-          
-    }
+}
+    
+#appfooter {padding-top: 2%;}
 
   
 }    
