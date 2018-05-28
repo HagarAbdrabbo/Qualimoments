@@ -1,82 +1,87 @@
 /* Based on template from csslayoutgenerator.com */
 
-@keyframes slide-up {
-  from {
-    margin-top: 100%;
-    height: 100%; 
-  }
+/* css animation */
 
-  to {
-    margin-top: 40%;
-    height: 100%;
-  }
+@keyframes slide-up {
+    from {
+        margin-top: 100%;
+        height: 100%;
+    }
+
+    to {
+        margin-top: 40%;
+        height: 100%;
+    }
 }
 
 @keyframes slide-up2 {
-  from {
-    margin-top: 50%;
-    height: 100%; 
-  }
+    from {
+        margin-top: 50%;
+        height: 100%;
+    }
 
-  to {
-    margin-top: 10%;
-    height: 100%;
-  }
+    to {
+        margin-top: 10%;
+        height: 100%;
+    }
 }
 
 @keyframes slide-up3 {
-  from {
-    margin-top: 50%;
-    height: 100%; 
-  }
+    from {
+        margin-top: 50%;
+        height: 100%;
+    }
 
-  to {
-    margin-top: 10%;
-    height: 100%;
-  }
+    to {
+        margin-top: 12%;
+        height: 100%;
+    }
 }
 
 @keyframes icon {
-  from {
-    margin-top: 50%;
-    height: 100%; 
-  }
+    from {
+        margin-top: 50%;
+        height: 100%;
+    }
 
-  to {
-    margin-top: 10%;
-    height: 100%;
-  }
+    to {
+        margin-top: 10%;
+        height: 100%;
+    }
 }
 
 @keyframes icon2 {
-  from {
-    margin-top: 50%;
-    height: 100%; 
-  }
+    from {
+        margin-top: 50%;
+        height: 100%;
+    }
 
-  to {
-    margin-top: -1%;
-    height: 100%;
-  }
+    to {
+        margin-top: -1%;
+        height: 100%;
+    }
 }
 
 @keyframes icon3 {
-  from {
-    margin-top: 8%;
-    height: 100%; 
-  }
+    from {
+        margin-top: 8%;
+        height: 100%;
+    }
 
-  to {
-    margin-top: -3%;
-    height: 100%;
-  }
+    to {
+        margin-top: -3%;
+        height: 100%;
+    }
 }
-body {    font-family: 'Montserrat', sans-serif;
-  
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 h1,
@@ -84,72 +89,79 @@ h2,
 h3,
 h4,
 h5,
-h6 {
- 
+h6 {}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
 }
 
-h1 {text-align: center;
-   font-weight: bold; 
-    font-size: 2.8em;  
-}
-
-p{text-align: center;
-   font-size: 1em;
+p {
+    text-align: center;
+    font-size: 1em;
     line-height: 1.3em;
 }
 
-h2 {text-align: center;
-    font-weight: bold; 
-    font-size: 1.5em;  
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 #wrapper {
-  max-width: 100%;
-  margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
+
+/* starting the mobile layout */
 
 /* Header
------------------------------------------------------------------------------*/
+---------------------------------------------------------- */
 
 header {
-  height: 3em;
-  background-color: white;
-  padding: 1%;
-  
+    height: 3em;
+    background-color: white;
+    padding: 1%;
+
 }
 
-#logo {width: 90%;
-       grid-area:left;
-       padding-top: 3%;
+#logo {
+    width: 90%;
+    grid-area: left;
+    padding-top: 3%;
 }
 
-#burger {width: 12vw;
-         padding-right:13%;
-         padding-top:5%;
+#burger {
+    width: 12vw;
+    padding-right: 13%;
+    padding-top: 5%;
 }
 
-#top { display: grid;
-       grid-template-areas:
-       'left left right';
-       padding-left: 3%;
-       padding-right:  3%;
+#top {
+    display: grid;
+    grid-template-areas: 'left left right';
+    padding-left: 3%;
+    padding-right: 3%;
 }
+
+
+/*Here goes the dropdown menu*/
 
 .dropdown {
     position: relative;
     display: inline-block;
-    grid-area:right;
-    
-}
+    grid-area: right;
 
+}
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     width: 58vh;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transform: translateX(-82.8%);
     padding-top: 7%;
@@ -157,41 +169,47 @@ header {
 
 .dropdown-content a {
     color: black;
-    
+
     text-decoration: none;
     display: block;
     text-align: center;
-    
 }
 
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.show {display:block;}
+.show {
+    display: block;
+}
 
 nav {
-  text-align: right;
-
+    text-align: right;
 }
 
-li { display: inline;
-     margin-bottom: 3%;
+li {
+    display: inline;
+    margin-bottom: 3%;
     margin-right: 2%;
-    
 }
 
+#tablet {
+    display: none;
+
+}
 
 /* Middle
------------------------------------------------------------------------------*/
+---------------------------------------------------------- */
 
-#tablet {display: none;
-    
-}
+/*Here starting the index page */
+
+/*Here goes the video */
 
 #myVideo {
     position: relative;
     text-align: center;
     overflow: hidden;
-    height:100vh;
+    height: 100vh;
 }
 
 .video {
@@ -200,618 +218,701 @@ li { display: inline;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     height: 100%;
-    
-    
-}
-video{
-    height:100%;
-    transform: translateX(-50%); 
-    
 }
 
-.source{
+video {
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.source {
     height: 100%;
 }
 
-#quali{
+/*Here set up the texet on top of the video */
+
+#quali {
     margin-top: 40%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     animation-name: slide-up;
     animation-duration: 1s;
+    font-size: 1.7em;
 }
 
-#story{padding: 5%;
-       margin-top: 3%;
-       font-size: 1.3em;
-   
+#story {
+    padding: 5%;
+    margin-top: 3%;
+    font-size: 1.3em;
 }
 
-#launch{
+/*Here goes the counting down*/
+
+#launch {
     margin-top: 7%;
+    margin-bottom: 13%;
 }
 
-#clockdiv{display:flex;
-         justify-content: space-between;
-         margin-left: 6%;
-         margin-right: 6%;
-    
-         
+#clockdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-#clockdiv > div{
-   margin-top: 5%;
+#clockdiv > div {
+    margin-top: 5%;
     background-color: white;
     display: inline-block;
     text-align: center;
-    
 }
 
-#clockdiv div > span{
+#clockdiv div > span {
     color: #337bb3;
     font-weight: bolder;
     display: inline-block;
-    
 }
 
-.smalltext{
+.smalltext {
     padding-top: 2%;
     font-size: 0.7em;
     color: #c71441;
 }
 
-hr {width: 13vw;
-    
+hr {
+    width: 13vw;
 }
 
-
-
-#welcome {margin-top: 2%;
-          
+#keep {
+    margin-top: 8%;
+    text-align: center;
 }
 
-#community {font-size:2em; 
-            margin-top: 5%;
-            margin-bottom: 8%;
-            margin-left: 2%;
-            margin-right: 2%;
+/*Here goes the Newsletter*/
+
+#subscribe {
+    margin: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-
-
-#intro {background-color: #337bb3;
-        color: white;
-        padding-top: 7%;
-        padding-bottom:7%;
-}
-
-
-.page2 {padding: 3%;
-}
-
-
-#reviews {display: flex;
-          flex-wrap: nowrap;
-          text-align: center;
-          width: 100%;
-          overflow-x: auto;
-          margin-left: 4%;
-        
-    }
-#reviews div{min-width:70vw;
-             padding:7%;
-             font-size: 0.8em;
-}
-
-h6 {color:  #c71441;
-    margin-top: 5%;
-    font-weight: bold;
-}
-
-#How {margin-top: 8%;
-}
-
-
-#features {margin-top: 8%;
-           background-color: #337bb3;
-           color: white;
-           text-align: center;
-           padding-bottom: 8%;
-}
-#sign {margin-bottom: 8%;
-       padding-top: 8%;       
-}
-
-
-#get {font-size:2em; 
-            margin-top: 5%;
-            margin-bottom: 8%;
-            margin-left: 2%;
-            margin-right: 2%;
-}
-#blue {text-align: center;}
-
-.icons {
-    color: white;
-    margin-top: 8%;    
-}
-
-
-
-.i {font-weight: bold;  
-    animation-name: icon;
-    animation-duration: 1s;
-}
-
-.fas { margin-right:4%;
-       font-size: 1.4em;    
-}
-
-#keep {margin-top: 8%;
-       text-align: center;    
-}
-
-#subscribe {margin: 5%;
-}
-
-h4 {margin: auto;
+h4 {
+    margin: auto;
     margin-top: 4%;
-    border:1px inset; 
+    border: 1px inset;
     border-radius: 12px;
     max-width: 50%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
 
-button {background-color:#c71441;
-        color: white;
-        border-radius: 12px;
-        width: 50%;
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
-        margin-top: 2%;
+button {
+    background-color: #c71441;
+    color: white;
+    border-radius: 12px;
+    width: 50%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 2%;
+}
+
+           /*Here starting the About page */
+
+#welcome {
+    margin-top: 2%;
+
+}
+
+#community {
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+#intro {color: black;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        font-size: 1.2em;
+        text-align: center;
+        padding-left:2%;
+        padding-right: 2%;
+}
+
+#intro h2 {padding-bottom: 5%;
+    
+}
+  
+.list { width: 60%;
+        color: #337bb3;
     
 }
 
-#wait { padding: 4%;
-        display: block;
-        margin: auto;
+
+.page2 {
+    padding: 3%;
 }
 
-#app {max-width: 95%;
-      padding-top:8%;
-      padding-bottom:8%;
-      display: block;
-      margin: auto;
-    }
-#mobile {display: none;}
+/*Here goes the sign up & feature*/
 
-.download {max-width: 50%;
-           padding-bottom: 8%;
-           display: block;
-           margin-left: auto;
-           margin-right: auto;
-          
+#features {
+    margin-top: 8%;
+    background-color: #337bb3;
+    color: white;
+    text-align: center;
+    padding-bottom: 8%;
 }
-#google {max-width: 49%;}
+
+#sign {
+    margin-bottom: 8%;
+    padding-top: 8%;
+}
+
+.icons {
+    color: white;
+    margin-top: 8%;
+}
+
+.i {
+    font-weight: bold;
+    animation-name: icon;
+    animation-duration: 1s;
+}
+
+.fas {
+    margin-right: 4%;
+    font-size: 1.4em;
+}
+
+
+/*Here starting the Get app page */
+
+/*Here goes the pragraph*/
+
+#get {
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#wait {
+    padding: 4%;
+    display: block;
+    margin: auto;
+}
+
+
+/*Here goes the picture of app*/
+
+#app {
+    max-width: 95%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    display: block;
+    margin: auto;
+}
+
+#mobile {
+    display: none;
+}
+
+/*Here goes the picture of app*/
+
+.download {
+    max-width: 50%;
+    padding-bottom: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#google {
+    max-width: 49%;
+}
 
 /* Footer
------------------------------------------------------------------------------*/
+---------------------------------------------------------- */
 
 footer {
-  height: auto;
-  padding-top: 7%;
-  font-size: 0.6em;
-  
-  text-align: center;
-  
+    height: auto;
+    padding-top: 7%;
+    font-size: 0.6em;
+    text-align: center;
 }
 
-#right { background-color:  #337bb3;
-         color: white;
-         padding-bottom: 2%;
-         padding-top: 2%;}
+/*Here goes contact info*/
 
-
-.mail {text-decoration: none;
-       font-size: 0.7em;  
-       color: black; 
-    
+.mail {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: black;
 }
-#contact {font-size: 2em;
-          margin-bottom:5%;
-          margin-top: 5%;
-          
+
+#contact {
+    font-size: 2em;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 /*Here goes Social Media*/
-.social-buttons {text-align: center;
-padding-left: 2%;
-padding-bottom: 2%;
+
+.social-buttons {
+    text-align: center;
+    padding-left: 2%;
+    padding-bottom: 2%;
 }
 
 
-.social-btn {font-size: 3em;
-margin: 1%;
-text-align: center;
-color: #337bb3;
+.social-btn {
+    font-size: 3em;
+    margin: 1%;
+    text-align: center;
+    color: #337bb3;
 }
 
-   /* ---------560px -------- */
-@media only screen and (min-width: 560px) { /* gul */
-    
-.dropdown {display: none;
+/*Here goes the copyright*/
+
+#right {
+    background-color: #337bb3;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
-     
- #tablet {display: flow-root;
-          margin-top: 5%; 
-          grid-area:right;           
-}
-    
-#logo { max-width: 80%;
-        
+
+
+
+/* ---560px breaking point between mobile & tablet --- */
+
+@media only screen and (min-width: 560px) {
+    /* gul */
+    /*Here goes the tablet & pc nav*/
+    .dropdown {
+        display: none;
     }
-    
-#top{display: grid;
-     grid-template-areas:
-     'left right right';
-     margin-top: 2%;
-        
-}    
-#tablet ul li a {
+
+    #tablet {
+        display: flow-root;
+        margin-top: 5%;
+        grid-area: right;
+    }
+
+    #logo {
+        max-width: 80%;
+
+    }
+
+    #top {
+        display: grid;
+        grid-template-areas: 'left right right';
+        margin-top: 2%;
+    }
+
+    #tablet ul li a {
         color: #c71441;
         text-decoration: none;
-        font-size:0.8em; 
-}
-    
-#tablet a:hover{color: black;
-}
-    
-
-    
- #tablet ul li {padding: 2%;
-}
-    
-       
-#myVideo {height:58vh; 
-}
-  
-video{transform: translateX(0);
-    height:auto;
-    width:100%
+        font-size: 0.8em;
     }
-.video {height: auto; 
+
+    #tablet a:hover {
+        color: black;
+    }
+
+
+    #tablet ul li {
+        padding: 2%;
+    }
+
+    /*Here goes the viedo*/
+    #myVideo {
+        height: 58vh;
+    }
+
+    video {
+        transform: translateX(0);
+        height: auto;
+        width: 100%
+    }
+
+    .video {
+        height: auto;
         padding-bottom: 10%;
-}
-    
-    #story{padding: 0%;
-       margin-top: 2%;
-}
-
-#quali {
-        margin-top: 13%;
-        
     }
-    
 
-    
+    #story {
+        padding: 0%;
+        margin-top: 2%;
+    }
+
+    #quali {
+        margin-top: 13%;
+
+    }
+
+
+
 }
-    
-    /* ---------768px -------- */
-@media only screen and (min-width: 768px) { /* gul */
 
- #myVideo {height:68vh; 
-}
-   
 
-.video {height: 100%;
+/* ---------768px  The tablet breaking point -------- */
+
+@media only screen and (min-width: 768px) {
+    /* gul */
+    .dropdown {
+        display: none;
+    }
+
+
+    /*Here starting the index page */
+    #myVideo {
+        height: 100%;
+        margin-top: 4%;
+    }
+
+
+    .video {
+        height: 100%;
         margin-top: 0%;
-            
-}
-    
-#tablet ul li a {
+    }
+
+    #tablet ul li a {
         color: #c71441;
         text-decoration: none;
-        font-size:1.3em; 
-}
-    
-#top {margin-top: 1%;
-        
+        font-size: 1.3em;
     }
-    
-#quali{margin-top: 10%;
-       margin-left:  0%;
-       margin-right:  0%;
-    animation: slide-up2;
-    animation-duration: 1s;
-}
-    
-#story {font-size: 1.5em;
-        
- }  
-    
-#launch{margin-bottom: -2%;
-}    
-    
-#clockdiv{margin-left: 25%;
-          margin-right: 25%;
-          margin-top: 4%;
-}
-    
-#clockdiv div > span{ font-size: 1.2em;
-}
-    
-hr {width: 10vw;
-}
 
-    
-.smalltext{font-size: 1.2em;
-}
-
-#intro {font-size: 1.3em;
-        padding-top: 3%;
-        padding-bottom:3%;
-        
-}
-#How {margin-bottom: 8%;} 
-   
-#reviews {margin-left: 0%;
-          
-}
-    
-#reviews div{min-width:60vw;
-             padding:2%;
-             padding-top: 0%;
-             font-size:1em;
-}
-#three {display: flex;
-        justify-content: space-around;
-        font-size: 1.1em;
-}
-    
-#sign {padding-top:5%; 
-       margin-bottom: 5%;
-}
-    
-.icons {margin-top:2%;
-       width: 29%;
-       animation-name: icon2;
-       animation-duration: 1s;
-}
-    
-    
-.i {margin-bottom: 2%;
-    
-        
-    }
-    
-#click {display: flex;
-        justify-content: space-between;
-        padding-left:23%;
-        padding-right: 23%;
+    #top {
         margin-top: 1%;
-}
-    
-button {width:45%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-}       
-h4 {width: 45%;
-    margin: 0%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    } 
-    
-#keep{margin-bottom: -2%;
-    
-    }
+   }
 
-#wait {font-size: 1.5em;
-       max-width: 77%;
-       padding-top: 0%;
-}    
-#app {width: 60%;
-      padding: 0%;
-    
-}
-    
-#subscribe{margin:3%;
-        
-    }
-    
-#google{height: 3em;
-        max-width: 20%;
-        padding-left: 20%;
-        
-} 
-    
-#apple { max-width: 20%;
-         height: 3em;
-         padding-right: 20%;
-        
-    }   
-#stores {display: flex;
-         justify-content: space-around;
-         margin-top:5%; 
-     
-}
-    
-.download {
-           padding-bottom: 0%;
-           margin-right: 0%;
-           margin-left: 0%;
-    } 
-    
-
-    
-#last {display: flex;
-       justify-content: space-between;
-       margin-left: 16%;
-       margin-right: 16%;
-} 
-    
-   
-
-.social-buttons {font-size: 0.9em;
-                 margin-top: 4%;
-                 padding-top:1.5%;
-                 width: 50%;
-                 text-align: right;
-}
-    
-    .social-btn{padding-right: 5%;}
-        
-    
-#right {font-size: 1.4em;}
-    
-.footer {
-          margin-top: 2%;
-         
-}
-}
-
-   /* ---------- 1000px ----------- */
-@media only screen and (min-width: 1000px) { /* gul */
-
-.header{ 
-        padding-bottom: 1%;
-}
-    
-#logo {padding-top: 0%;
-}
-    
-#tablet {margin-top: 2%;
-         font-size: 1.3em;
-}
-    
-
-#top {margin-top: 0%;}
-
-#story { font-size: 1.6em;
-         width: 60%;
-         border: 1px none #000000;
-         word-break: normal;
-    display: block;
-    margin: auto;
-    margin-top: 3%;
-        
-    }  
-    
-#myVideo {height:90vh; 
-}
-    .video {width: 100%;}
-    
-#quali {margin-top: 12%;
-    animation-name: slide-up3;
+    #quali {
+        margin-top: 13%;
+        margin-left: 0%;
+        margin-right: 0%;
+        animation: slide-up2;
         animation-duration: 1s;
     }
-#launch h2 {font-size:2.7em;
-    
-}
-    
-   
-#clockdiv div > span{ font-size: 1.8em;
-}
-    
-hr {width: 11vw;
+
+    #story {
+        font-size: 1.5em;
+        margin-top: 5%;
+
+    }
+
+    #launch {
+        margin-bottom: -2%;
+        margin-top: 5%;
+    }
+
+    #clockdiv {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 4%;
+    }
+
+    #clockdiv div > span {
+        font-size: 1.2em;
+    }
+
+    hr {
+        width: 10vw;
+    }
+
+
+    .smalltext {
+        font-size: 1.2em;
+    }
+
+    #click {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 23%;
+        padding-right: 23%;
+        margin-top: 1%;
+    }
+
+    button {
+        width: 45%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    h4 {
+        width: 45%;
+        margin: 0%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #keep {
+        margin-bottom: -2%;
+        margin-top: 11%;
+    }
+
+
+    /*Here starting About page */
+    #intro {
+        font-size: 1.3em;
+        padding-top: 3%;
+        padding-bottom: 3%;
+
+    }
+
+
+    #three {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.1em;
+    }
+
+    #sign {
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .icons {
+        margin-top: 2%;
+        width: 29%;
+        animation-name: icon2;
+        animation-duration: 1s;
+    }
+
+
+    .i {
+        margin-bottom: 2%;
+
+
+    }
+
+    /*Here starting About page */
+    #wait {
+        font-size: 1.5em;
+        max-width: 77%;
+        padding-top: 0%;
+    }
+    #app {
+        width: 60%;
+        padding: 0%;
+
+    }
+
+    #subscribe {
+        margin: 3%;
+
+    }
+
+    #google {
+        height: 3em;
+        max-width: 20%;
+        padding-left: 20%;
+
+    }
+
+    #apple {
+        max-width: 20%;
+        height: 3em;
+        padding-right: 20%;
+
+    }
+    #stores {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+
+    }
+
+    .download {
+        padding-bottom: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+
+    /*Here goes the footer*/
+    #last {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+
+
+    .social-buttons {
+        font-size: 0.9em;
+        margin-top: 4%;
+        padding-top: 1.5%;
+        width: 50%;
+        text-align: right;
+    }
+
+    .social-btn {
+        padding-right: 5%;
+    }
+
+
+    #right {
+        font-size: 1.4em;
+    }
+
+    .footer {
+        margin-top: 2%;
+
+    }
+
 }
 
-    
-.smalltext{font-size: 1.8em;
-}
-    
-  #community {font-size:2.3em; 
-            margin-top: 3%;
-            margin-bottom: 3%;
-            
-}
-    
-#intro {padding-top: 0.5%;
-        padding-bottom:0.5%;
-}
-    
-#intro p{display: block;
+/* ------- 1000px  The pc breaking point --------- */
+
+@media only screen and (min-width: 1000px) {
+    /* gul */
+    /*Here Here goes the header */
+    .header {
+        padding-bottom: 1%;
+    }
+
+    #logo {
+        padding-top: 0%;
+    }
+
+    #tablet {
+        margin-top: 2%;
+        font-size: 1.3em;
+    }
+
+
+    #top {margin-top: 0%;
+          
+    }
+
+    /*Here starting the index page */
+    #story {
+        font-size: 1.6em;
+        width: 60%;
+        border: 1px none #000000;
+        word-break: normal;
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    #myVideo { margin-top: 1%;
+        height: 90vh;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    #quali {
+        margin-top: 12%;
+        animation-name: slide-up3;
+        animation-duration: 1s;
+    }
+
+    #launch h2 {
+        font-size: 2.7em;
+        margin-bottom: 2%;
+
+    }
+
+
+    #clockdiv div > span {
+        font-size: 1.8em;
+    }
+
+    hr {
+        width: 11vw;
+    }
+
+
+    .smalltext {
+        font-size: 1.8em;
+    }
+
+    #clockdiv {
+        margin-top: 0%;
+    }
+
+
+    button {
+        max-width: 47%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    h4 {
+        width: 47%;
+        margin: 0%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+
+    #click {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 1%;
+    }
+
+
+    #keep {margin-top: 9%;
+    }
+
+    #subscribe {
+        font-size: 1.6em;
+
+    }
+    /*Here starting the About page */
+    #community {
+        font-size: 2.3em;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    #intro {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    #intro p {
+        display: block;
         margin: auto;
         max-width: 70%;
-        font-size:1.3em; 
+        font-size: 1.3em;
     }
-#welcome {margin-top: 2%;
+
+    #welcome {
+        margin-top: 2%;
     }
-    
-#How { font-size: 2em;
-       margin-top: 4%;
-       margin-bottom: 4%;
-}
-    
-#reviews div{min-width:30vw;
-            
-             
-             font-size:1.2em;
-}
-    
-    
-::-webkit-scrollbar {
-    width: 12px;
-}
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-    
-#sign {font-size: 2em;
-       padding-top:4%;
-}
- 
-#features {margin-top: 4%;
-           padding-bottom: 4%;
-           
-}
-    
-.icons {margin-top:0%;
+
+    #sign {
+        font-size: 2em;
+        padding-top: 4%;
+    }
+
+    #features {
+        margin-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .icons {
+        margin-top: 0%;
         max-width: 33%;
         animation-name: icon3;
         animation-duration: 1s;
-        
-}
- 
-    
-.i {font-size: 1.3em;
-}
-
-button {max-width:47%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-}       
-h4 {width: 47%;
-    margin: 0%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    } 
-    
-    
-#click {
-        padding-left:20%;
-        padding-right:20%;
-        margin-top: 1%;
-}
-
-        
-#keep { margin-top: 4%;
-}
- 
-#keep h2 {font-size: 2em;
-    }  
-#subscribe {font-size: 1.6em;
-        
     }
-#contact {font-size: 3em;
-}
+
+
+    .i {
+        font-size: 1.3em;
+    }
+
+
+    /*Here starting the About page */
     /*
 .get {grid-area: menu;} 
 #wait{grid-area: left;
@@ -832,62 +933,96 @@ h4 {width: 47%;
 }    
     
     #mobile {display: none;} */
-   
- #article{ display: flex;
-           justify-content: space-around;
-          margin-top: 8%;
-          padding-left: 8%;
-          padding-right: 8%;
+    #article {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
- #app{ display: none;}
 
+    #app {
+        display: none;
+    }
 
-  
-  #get {font-size:2.3em; 
+    #get {
+        font-size: 2.3em;
         margin-top: 3%;
         margin-bottom: 3%;
-       text-align: left;
-       margin-left: 0%;
-            
-}
+        text-align: left;
+        margin-left: 0%;
+    }
 
-    
-#wait {text-align: left;
-       margin: 0%;
-       padding-left: 0%;
-}
-#google {padding-left: 0%;
-         max-width: 100%;}
 
-#apple {max-width: 100%;}
-    
-#flex { max-width: 50%; 
-        }
- 
-#mobile {display: flow-root;
+    #wait {
+        text-align: left;
+        margin: 0%;
+        padding-left: 0%;
+    }
+
+    #google {
+        padding-left: 0%;
+        max-width: 100%;
+    }
+
+    #apple {
+        max-width: 100%;
+    }
+
+    #flex {
+        max-width: 50%;
+    }
+
+    #mobile {
+        display: flow-root;
         width: 50%;
-          
-}
-.download {padding-right: 15%;} 
-  
+    }
 
-.social-buttons{font-size: 1.4em;
-    
-}
-    
-   
-    
-.social-buttons li a:hover{color:#7bacd2; }
-    
+    .download {
+        padding-right: 15%;
+    }
 
-    
- #right { font-size: 2em;
-          padding-top: 1%;
-          padding-bottom: 1%;
-          
-}
-    
-#appfooter {padding-top: 2%;}
 
-  
-}    
+    /*Here goes the footer*/
+    #contact {
+        font-size: 3em;
+    }
+
+
+    .social-buttons {
+        font-size: 1.4em;
+    }
+
+
+
+    .social-buttons li a:hover {
+        color: #7bacd2;
+    }
+
+    #right {
+        font-size: 2em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    #appfooter {
+        padding-top: 2%;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+
+}
