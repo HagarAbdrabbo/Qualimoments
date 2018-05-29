@@ -316,7 +316,7 @@ button {
     margin-top: 2%;
 }
 
-           /*Here starting the About page */
+/*Here starting the About page */
 
 #welcome {
     margin-top: 2%;
@@ -325,29 +325,36 @@ button {
 
 #community {
     font-size: 2em;
-    margin-top: 5%;
-    margin-bottom: 8%;
+    margin-top: 7%;
+    margin-bottom: 3%;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 
 
-#intro {color: black;
-        padding-top: 7%;
-        padding-bottom: 7%;
-        font-size: 1.2em;
-        text-align: center;
-        padding-left:2%;
-        padding-right: 2%;
+#intro {
+    color: black;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    font-size: 1.1em;
+    text-align: center;
+
 }
 
-#intro h2 {padding-bottom: 5%;
-    
+#intro h2 {
+    padding-bottom: 6%;
+    padding-top: 6%;
+
+    margin-bottom: 9%;
+    background-color: #337bb3;
+    color: white;
 }
-  
-.list { width: 60%;
-        color: #337bb3;
+
+
+
+.list {
+    width: 60%;
     
 }
 
@@ -587,7 +594,7 @@ footer {
 
     #top {
         margin-top: 1%;
-   }
+    }
 
     #quali {
         margin-top: 13%;
@@ -654,15 +661,33 @@ footer {
     }
 
 
-    /*Here starting About page */
+    /*-------Here starting About page --------*/
     #intro {
         font-size: 1.3em;
         padding-top: 3%;
+        padding-bottom: 0%;
+    }
+    #intro h2 {
         padding-bottom: 3%;
+        padding-top: 3%;
+        margin-bottom: 5%;
+        
+    }
+
+
+
+    #intro h6 {
+
+        text-align: center;
+        font-size: 1.1em;
 
     }
 
 
+
+    #features {
+        margin-top: 6%;
+    }
     #three {
         display: flex;
         justify-content: space-around;
@@ -688,7 +713,7 @@ footer {
 
     }
 
-    /*Here starting About page */
+    /*Here starting get the app page */
     #wait {
         font-size: 1.5em;
         max-width: 77%;
@@ -784,8 +809,9 @@ footer {
     }
 
 
-    #top {margin-top: 0%;
-          
+    #top {
+        margin-top: 0%;
+
     }
 
     /*Here starting the index page */
@@ -799,7 +825,8 @@ footer {
         margin-top: 3%;
     }
 
-    #myVideo { margin-top: 1%;
+    #myVideo {
+        margin-top: 1%;
         height: 90vh;
     }
 
@@ -811,6 +838,9 @@ footer {
         margin-top: 12%;
         animation-name: slide-up3;
         animation-duration: 1s;
+        font-size: 2.7em;
+        font-weight: bolder;
+
     }
 
     #launch h2 {
@@ -820,7 +850,7 @@ footer {
     }
 
 
-    #clockdiv div > span {
+    #clockdiv div span {
         font-size: 1.8em;
     }
 
@@ -859,7 +889,8 @@ footer {
     }
 
 
-    #keep {margin-top: 9%;
+    #keep {
+        margin-top: 9%;
     }
 
     #subscribe {
@@ -868,7 +899,7 @@ footer {
     }
     /*Here starting the About page */
     #community {
-        font-size: 2.3em;
+        font-size: 2.7em;
         margin-top: 3%;
         margin-bottom: 3%;
     }
@@ -878,13 +909,11 @@ footer {
         padding-bottom: 0.5%;
     }
 
-    #intro p {
-        display: block;
-        margin: auto;
-        max-width: 70%;
-        font-size: 1.3em;
-    }
-
+    #intro h6 {font-size: 1.5em;
+                }
+    
+    .list {width: 40%;}
+    
     #welcome {
         margin-top: 2%;
     }
@@ -946,7 +975,7 @@ footer {
     }
 
     #get {
-        font-size: 2.3em;
+        font-size: 2.7em;
         margin-top: 3%;
         margin-bottom: 3%;
         text-align: left;
