@@ -943,26 +943,9 @@ footer {
 
 
     /*Here starting the About page */
-    /*
-.get {grid-area: menu;} 
-#wait{grid-area: left;
-       margin: 0%;
-       padding: 0%;
-}
-#app {grid-area: right;
-      margin: 0%;
-      display:inline-block;
-       }
-#stores {grid-area: bottom;}
-        
-#article {display: grid;
-        grid-template-areas:
-         'menu  right'
-         'left  right'
-         'bottom  right';
-}    
+   
     
-    #mobile {display: none;} */
+    #mobile {display: none;} 
     #article {
         display: flex;
         justify-content: space-around;
